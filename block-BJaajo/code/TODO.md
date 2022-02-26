@@ -6,6 +6,11 @@ Create the execution context diagram of the following code. Also write the outpu
 console.log('First');
 setTimeout(() => console.log('Second'), 0);
 console.log('Third');
+
+// First
+// Third
+// Second
+
 ```
 
 2.
@@ -60,6 +65,11 @@ setTimeout(function exec() {
 }, 0);
 runWhileLoopForNSeconds(3);
 console.log('Third');
+
+
+// first 0ms
+// third 3000ms
+//  second 3001ms
 ```
 
 6. Convert the synchronous code given below into asynchronous. If you execute this code it will print one, two and three. Change the code in such a way that it should print `one`, `three` and `two`. You are not allowed to move the code up and down.
@@ -110,4 +120,6 @@ Convert the code below in such way that the output should be the one below
 console.log('First Call');
 [1, 2, 3, 4, 5].firEach((num) => console.log(num));
 console.log('Last Call');
+
+
 ```
