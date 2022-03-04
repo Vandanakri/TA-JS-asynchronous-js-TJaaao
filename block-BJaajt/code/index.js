@@ -16,7 +16,7 @@ function displayUI(data) {
 }
 
 function handleChange(event) {
-  if(event.keyCode === 13) {
+  if(event.keyCode === 1) {
     let xhr = new XMLHttpRequest();
     xhr.open('GET', `https://api.github.com/users/${event.target.value}`);
     xhr.onload = function () {
