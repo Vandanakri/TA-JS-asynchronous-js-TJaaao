@@ -30,5 +30,5 @@ Promise.all([
   }),
   'Sam',
   { name: 'John' },
-]).then(console.log);
+]).then(console.log); //(3) ['Arya', 'Sam', {…}]
 ```
