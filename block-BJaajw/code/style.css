@@ -1,0 +1,41 @@
+body {
+  background-color: gray;
+}
+  
+h1{
+  background-color: black;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1rem;
+}
+img{
+  width: 400px;
+  height: 400px;
+}
+button{
+  color: #fff;
+  background-color: black;
+  margin-bottom: 5rem;
+}
+p{
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+h2{
+  background-color: black;
+  color: #fff;
+  width: 15%;
+  border-radius: 2rem;
+ margin: 0 auto;
+ margin-top: 2rem;
+}
+.option{
+  text-align: center;
+  margin: 2rem;
+}
+
+.news {
+  text-align: center;
+}
